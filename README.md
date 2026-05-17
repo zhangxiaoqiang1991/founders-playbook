@@ -101,13 +101,17 @@ git clone https://github.com/zhangxiaoqiang1991/founders-playbook.git
 
 1. **这不是通用创业顾问。** 输出严格基于《创始人手册》的框架。如果你问的是框架覆盖不到的问题（比如具体融资条款、股权结构），skill 会告诉你"这个问题超出了本书范围"。
 
-2. **先诊断再给方案。** Skill 一定会先确认你所在的阶段和团队模式再给出建议。
+2. **这本书是 Anthropic 写的。** 工具推荐（Claude Chat / Code / Cowork）都是自己的产品，并非中立第三方评估。框架本身是工具中立的，但操作指南确实假设你用了 Anthropic 的产品。
 
-3. **Skill 不做权威断言。** 它的工作方式是引导你自己得出结论，而不是替你做决策。
+3. **四阶段是简化模型。** 现实中的创业不会四个阶段线性走完。你可能来回跳、同时处在两个阶段、或者不完全符合任何阶段。框架是导航地图，不是铁轨。
 
-4. **陷阱是主动预警的。** 每个阶段都内置了陷阱清单，不等你踩进去再说。
+4. **一人公司适配是我们的延伸。** Scale 阶段的"一人公司版退出标准"、定价诊断等是我们基于 Dario Amodei 等人的观点做的延伸，不是原书内容。
 
-5. **Idea 和 MVP 的边界可能模糊。** 坦诚地回答诊断问题就好。
+5. **这个框架最适合 AI Native 产品。** 如果你的生意是传统服务业、硬件、或内容媒体，部分阶段（尤其是 MVP 和 Launch）需要你自己重新理解。
+
+6. **阶段诊断是启发式的。** 三个诊断问题不是精密测量。如果你觉得诊断结果不符合你的感觉，直接说，skill 会重新校准。
+
+7. **这本书写于 2026 年 5 月。** AI 行业变化很快，具体工具建议可能在 6 个月后有更优解。关注四阶段和验证逻辑，而不是具体工具名称。
 
 ### 测试案例
 
@@ -182,11 +186,12 @@ Trigger with `/founders-playbook` or "AI-native startup guide". Then **just say 
 ### Caveats
 
 1. **Not a general startup advisor.** Output is strictly based on the book's framework.
-2. **Router-first, not lecture-first.** The skill listens first, routes, then guides.
-3. **Solo/team branching.** All advice calibrated to your situation.
-4. **No authoritative assertions.** Guides you to conclusions, doesn't decide for you.
-5. **Traps are proactively warned.**
-6. **Idea/MVP boundary can blur.** Be honest about what you've built.
+2. **The book is by Anthropic.** Tool recommendations (Claude Chat/Code/Cowork) are their own products — not a neutral third-party evaluation.
+3. **4-stage model is a simplification.** Real startups don't move linearly. You might loop back, straddle stages, or not fit neatly.
+4. **Solo founder adaptation is our addition.** The alternative Scale stage and pricing diagnosis are extensions we built, not from the original book.
+5. **Best for AI-native products.** If you're in services, hardware, or media, some stages need reinterpretation.
+6. **Stage diagnosis is heuristic.** Three questions won't capture everything. Speak up if the result doesn't feel right.
+7. **Published May 2026.** AI moves fast. Focus on the framework (validation logic, stage transitions), not the specific tool names.
 
 ### Test Cases
 
