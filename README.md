@@ -83,24 +83,19 @@ git clone https://github.com/zhangxiaoqiang1991/founders-playbook.git
 
 ### 使用方式
 
-在 Claude Code 中触发：
+在 Claude Code 中触发 `/founders-playbook`、`/创业手册` 或 `/创始人手册` 后，**直接说你现在的情况，skill 会自动路由到最合适的模式**：
 
-- `/founders-playbook` — 进入创业导航
-- `/创业手册` — 同上
-- `/创始人手册` — 同上
-
-你也可以绕过阶段诊断直接使用专项功能：
-
-| 说出关键词 | 进入模式 |
-|-----------|---------|
-| "帮我分析一下这个方向/想法" | 魔鬼代言人分析 |
+| 你说 | 路由到 |
+|------|--------|
+| "我有个想法不知道行不行" | 魔鬼代言人分析 |
+| "我做了个产品但没人用" | MVP 阶段 + PMF 诊断 |
+| "产品上线了但增长很慢" | Launch 阶段诊断 |
+| "几个产品线顾不过来" | Scale 阶段诊断 |
 | "帮我看看竞品" | 竞品格局四层扫描 |
-| "帮我设计客户访谈" | 客户发现访谈设计 |
-| "帮我看看我的产品有没有 PMF" | PMF 诊断（Sean Ellis 测试）|
-| "帮我看看我的增长" | 增长引擎诊断 |
-| "帮我看看我的护城河" | 三层护城河诊断 |
-| "我的运营卡住了" | 运营瓶颈诊断 |
 | "帮我看看定价" | 定价诊断（一人公司）|
+| "我不知道我在哪个阶段" | 诊断模式 |
+
+你也可以在路由表中查看所有模式。不需要记——说人话就行。
 
 ### 使用注意（重要）
 
@@ -173,15 +168,25 @@ Each stage includes exit criteria checklists, trap warnings, and actionable exer
 
 ### Usage
 
-In Claude Code, trigger with `/founders-playbook` or "AI-native startup guide".
+Trigger with `/founders-playbook` or "AI-native startup guide". Then **just say what's on your mind** — the skill routes automatically:
+
+| You say | Routed to |
+|---------|-----------|
+| "I have an idea but not sure" | Devil's Advocate analysis |
+| "I built something but nobody uses it" | MVP stage + PMF check |
+| "Product is live but growth is slow" | Launch stage diagnosis |
+| "Multiple products running, overwhelmed" | Scale stage diagnosis |
+| "Help me analyze competitors" | Competitive landscape scan |
+| "I don't know what stage I'm at" | Diagnostic mode |
 
 ### Caveats
 
 1. **Not a general startup advisor.** Output is strictly based on the book's framework.
-2. **Diagnosis + team-mode first.** The skill confirms both before recommending.
-3. **No authoritative assertions.** Guides you to conclusions, doesn't decide for you.
-4. **Traps are proactively warned.**
-5. **Idea/MVP boundary can blur.** Be honest about what you've built.
+2. **Router-first, not lecture-first.** The skill listens first, routes, then guides.
+3. **Solo/team branching.** All advice calibrated to your situation.
+4. **No authoritative assertions.** Guides you to conclusions, doesn't decide for you.
+5. **Traps are proactively warned.**
+6. **Idea/MVP boundary can blur.** Be honest about what you've built.
 
 ### Test Cases
 
