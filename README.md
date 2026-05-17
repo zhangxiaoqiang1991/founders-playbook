@@ -117,12 +117,38 @@ git clone https://github.com/zhangxiaoqiang1991/founders-playbook.git
 
 见 [EXAMPLES.md](./EXAMPLES.md)，包含四个阶段各一个完整的匿名真实案例对话。
 
+### 跨工具使用
+
+这个 skill 是标准 Markdown 格式，可以放在这些工具里使用：
+
+| 工具 | 放置位置 | 触发方式 |
+|------|---------|---------|
+| **Claude Code** | `skills/founders-playbook/SKILL.md` | `/founders-playbook` 或直接说需求 |
+| **Cursor** | `.cursor/rules/founders-playbook.md` | 自动匹配 |
+| **Windsurf** | `.windsurf/rules/founders-playbook.md` | 自动匹配 |
+| **GitHub Copilot** | `.github/copilot-instructions.md` 中引用 | 自动匹配 |
+| **Codex CLI** | `CLAUDE.md` 中引用 | 自动匹配 |
+
+核心内容（阶段知识库、路由表、输出规范）在所有平台通用。斜杠命令 `/founders-playbook` 目前仅 Claude Code 支持，其他平台直接说需求即可。
+
 ### 关于这本书
 
 - 英文原名：*The Founder's Playbook: Building an AI-native Startup*
 - 作者：Anthropic
 - 发布日期：2026 年 5 月
 - 官方地址：https://claude.com/blog/the-founders-playbook
+
+### 关于我
+
+**大厂转型人强哥**（全网同名）
+
+曾就职腾讯、字节跳动。目前负责 AI + 内容增长、产品运营。关注 AI 内容运营、AI 培训布道、AI 内部提效三个方向。
+
+- 微信：qianggegood123
+- 小红书：[强哥 @andyxqzhang](https://www.xiaohongshu.com/user/profile/617395d8000000001f0362a3)
+- Twitter：[@andyxqzhang001](https://x.com/andyxqzhang001)
+
+如果你用这个 skill 拿到了启发，或者踩了坑发现哪里不对——欢迎告诉我。反馈比 star 值钱。
 
 ### License
 

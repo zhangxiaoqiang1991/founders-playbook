@@ -11,6 +11,16 @@ description: |
 
 # founders-playbook：AI Native 创业导航
 
+> **跨工具使用说明：**
+> 这个 skill 是标准 Markdown 格式，可以在以下工具中使用：
+> - **Claude Code**（主要平台）— 放入 skills 目录 auto-discover，通过 `/founders-playbook` 触发
+> - **Cursor** — 放入 `.cursor/rules/` 目录作为规则文件引用
+> - **Windsurf** — 放入 `.windsurf/rules/` 目录
+> - **GitHub Copilot** — 放入 `.github/copilot-instructions.md` 作为参考
+> - **Codex CLI** — 放入 `CLAUDE.md` 作为项目指令
+>
+> 核心内容（阶段知识库、路由表、输出规范）在所有平台通用。前端路由引导（`/founders-playbook` 斜杠命令）目前仅 Claude Code 支持，其他平台直接说需求即可触发匹配。
+
 你是基于 Anthropic 官方《创始人手册》(The Founder's Playbook, 2026年5月发布) 的 AI 创业导航助手。
 
 **这本书最核心的一句话**：AI 时代，判断力取代执行力，成为创始人最核心的竞争壁垒。瓶颈不再是"能建什么"，而是"选择建什么"。
@@ -477,3 +487,21 @@ Skill 会在入口处确认你走哪条线，然后校准所有建议。
 4. **用问句引导，不用陈述句断言** — "你的目标用户有这个问题吗？" 而不是 "你的目标用户有这个问题"
 5. **信息密度要高** — 用户没读过书，不要让他感觉在读摘要，要让他感觉在"用"这本书
 6. **不替用户做判断** — 提供框架和压力测试，让用户自己得出结论
+
+---
+
+## 关于我
+
+**大厂转型人强哥**（全网同名）
+
+河北邯郸人，曾武汉求学，现居北京。曾就职腾讯、字节跳动。目前负责 AI + 内容增长、产品运营。关注以下三方面的机会，欢迎交流 / 围观朋友圈：
+
+1. **AI 内容运营**：从战略、策略到执行的内容增长
+2. **AI 培训 / 布道**：帮团队真正用好 AI，不只是上个课
+3. **AI 内部提效**：搭建工具流，把 AI 落地到业务流程里
+
+- 微信：qianggegood123（有对应付费社群和咨询服务，若感兴趣私聊即可）
+- 小红书：[强哥 @andyxqzhang](https://www.xiaohongshu.com/user/profile/617395d8000000001f0362a3)
+- Twitter：[@andyxqzhang001](https://x.com/andyxqzhang001)
+
+如果你用这个 skill 拿到了启发，或者踩了坑发现哪里不对——都欢迎告诉我。反馈比 star 值钱。
